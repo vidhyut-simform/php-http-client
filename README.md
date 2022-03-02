@@ -32,7 +32,7 @@ $request->post('https://your-api-endpoint-url.com/', $payload);
 $request->patch('https://your-api-endpoint-url.com/resource-id', $payload, $headers);
 
 // To make a PUT request
-$request->patch('https://your-api-endpoint-url.com/resource-id', $payload);
+$request->put('https://your-api-endpoint-url.com/resource-id', $payload);
 
 // To make an OPTIONS request
 $request->options('https://your-api-endpoint-url.com/');
